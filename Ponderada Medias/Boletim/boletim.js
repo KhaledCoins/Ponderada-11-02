@@ -13,7 +13,7 @@ for (let i = 0; i < notas.length; i++) {
 const media = soma / notas.length;
 
 // Mostra as notas
-console.log("Notas:", notas);
+console.log("Notas:", notas.join (", "));
 
 // Exibe a média das notas
 console.log("A Média das Notas é:", media.toFixed(2)); // Exibe com duas casas decimais
